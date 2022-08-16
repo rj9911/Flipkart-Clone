@@ -45,7 +45,7 @@ paytmParams['INDUSTRY_TYPE_ID'] = process.env.PAYTM_INDUSTRY_TYPE_ID;
 paytmParams['ORDER_ID'] = uuid();
 paytmParams['CUST_ID'] = process.env.PAYTM_CUST_ID;
 paytmParams['TXN_AMOUNT'] = '100';  // Hardcored
-paytmParams['CALLBACK_URL'] = 'callback';
+paytmParams['CALLBACK_URL'] = 'https://availcart.herokuapp.com/callback';
 paytmParams['EMAIL'] = 'priyamgupta880@gmail.com';
 paytmParams['MOBILE_NO'] = '8287438697';
 
